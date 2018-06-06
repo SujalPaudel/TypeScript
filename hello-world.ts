@@ -1,24 +1,11 @@
-var a: number;
-var b: boolean;
-var c: string;
+var a = 10;
+var b = true;
+var c = 'Raju';
 
-a = 10;
-b = true;
-c = 'Raju';
-
-// tuples in typescript
-
-var myArr : [number, boolean];
-
-myArr  = [1, false];
-
-function s(a : number , b : number, c : number = 0)
+function greet() 
 {
-    return a + b + c;
+    return 'Hello Raju';
 }
 
-var sum = s(2, 2, 5);
-console.log(sum);
-
-s(3, 3);
+var greeting = greet();
 
