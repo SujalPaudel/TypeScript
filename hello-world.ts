@@ -1,11 +1,5 @@
-var a = 10;
-var b = true;
-var c = 'Raju';
+// can setup a as number or the boolean
+var a : number | boolean;
 
-function greet() 
-{
-    return 'Hello Raju';
-}
-
-var greeting = greet();
-
+a = 10;
+a = true;
