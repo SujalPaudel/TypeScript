@@ -1,20 +1,23 @@
 class Person{
     firstName :  string;
     lastName : string;
- 
-    constructor(firstName, lastName)
+    
+    greet()
     {
-        this.firstName = firstName;
-        this.lastName = lastName;
-    }
-
-
-    getName()
-    {
-        return this.firstName + " " +  this.lastName;
+        console.log('Hey There');
     }
 }
 
-var aPerson = new Person('Sujal', 'Paudel'); //calling the constructor 
+class Programmer extends Person{
+    greet()
+    {
+        console.log('Hello World');
+    }
+    greet_like_normalpeople(){
+        super.greet();
+    }
 
-console.log(aPerson.getName());
+}
+
+var aProgrammer : Person = new Programmer();
+aProgrammer.greet();
