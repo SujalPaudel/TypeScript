@@ -1,0 +1,26 @@
+{
+  "name": "ts-101",
+  "version": "1.0.0",
+  "description": "Start of the TS ",
+  "main": "(index.js)",
+  "scripts": {
+    "start": "tsc && node output/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SujalPaudel/TypeScript.git"
+  },
+  "author": "\"Sujal Paudel\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SujalPaudel/TypeScript/issues"
+  },
+  "homepage": "https://github.com/SujalPaudel/TypeScript#readme",
+  "dependencies": {
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.109"
+  }
+}
